@@ -1,7 +1,7 @@
 {
   "name": "pruebas_automatizadas",
   "version": "1.0.0",
-  "description": "",
+  "description": "Aprende a usar herramientas automatizadas de control de calidad para tus desarrollos web, para que sean consecuentes y anticiparte a los posibles problemas del código. Automatiza tus pruebas con PhantomJS, CasperJS y Gulp  y aprende a generar informes para asegurarte de que cuando un proyecto web sale a producción cumple todos los requisitos.",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,5 +21,13 @@
   },
   "devDependencies": {
     "gulp-csslint": "^1.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddharta1337/Desarrollo-web-Control-de-calidad-automatizado.git"
+  },
+  "bugs": {
+    "url": "https://github.com/siddharta1337/Desarrollo-web-Control-de-calidad-automatizado/issues"
+  },
+  "homepage": "https://github.com/siddharta1337/Desarrollo-web-Control-de-calidad-automatizado#readme"
 }

@@ -53,26 +53,26 @@ gulp.task('phantom', function () {
         .pipe(phantom())
         .pipe(gulp.dest("./test_data/"));
 
-})
+});
 
 gulp.task('casper' , function(){
     gulp.src("./casper/*.js")
     .pipe(casperJs());
-})
+});
 
 gulp.task('validar-js' , function(){
     gulp.src('app/script/*.js')
     .pipe(jslint())
     .pipe(jslint.reporter('stylish'));
 
-})
+});
 
 gulp.task('validar-css' , function(){
     gulp.src('app/css/*.css')
     .pipe(csslint())
     .pipe(csslint.formatter(require('csslint-stylish')))
 
-})
+});
 
 
-gulp.task('default', ['webserver', 'watch', 'openbrowser'])
+gulp.task('default', ['webserver', 'watch', 'openbrowser']);
