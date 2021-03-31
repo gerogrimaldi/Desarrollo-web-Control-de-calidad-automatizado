@@ -1,5 +1,5 @@
 var sitioWeb = require('webpage').create();
-var URL = "http://localhost:8001";
+var _URL = "http://localhost:8001";
 
 
 var captura = function(_width, _height,_nombre  ){
@@ -14,7 +14,7 @@ var captura = function(_width, _height,_nombre  ){
 
 }
 
-sitioWeb.open( URL , function(status){
+sitioWeb.open( _URL , function(status){
 
     if(status === 'success'){
 

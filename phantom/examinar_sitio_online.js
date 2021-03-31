@@ -1,5 +1,5 @@
 var sitioWeb = require('webpage').create();
-var _URL = "http://google.casdpoiapsdopasodpaospoasd";
+var _URL = "http://localhost:8001";
 
 sitioWeb.open( _URL , function(status){
 

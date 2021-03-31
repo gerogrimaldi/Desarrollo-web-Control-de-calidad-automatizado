@@ -1,15 +1,15 @@
 var sitioWeb = require('webpage').create();
 
-var URL = "http://localhost:8001";
+var _URL = "http://localhost:8001";
 
 
-sitioWeb.open( URL , function(status){
+sitioWeb.open( _URL , function(status){
 
     if( status === 'success'){
         
         var titulo = sitioWeb.evaluate( function(){
             return document.title;
-        } )
+        } );
 
         var longitudTitulo = titulo.length;
 

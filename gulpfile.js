@@ -49,7 +49,7 @@ gulp.task('watch', function () {
 
 
 gulp.task('phantom', function () {
-    gulp.src("./casper/*.js")
+    gulp.src("./phantom/*.js")
         .pipe(phantom())
         .pipe(gulp.dest("./test_data/"));
 
